@@ -12,3 +12,6 @@ gip = pygeoip.GeoIP('GeoLiteCity.dat')
 res = gip.record_by_addr('100.40.79.212')
 for key, val in res.items():
     print('%s : %s' % (key,val))
+    
+#test check git
+# test again
